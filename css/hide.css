@@ -1,9 +1,5 @@
 .feed-shared-update-v2 {
     display: none !important;
-	visibility: none !important;
+	visibility: hidden !important;
 }
 
-.scaffold-finite-scroll__content  {
- display: none !important;
-	visibility: none !important;
-}

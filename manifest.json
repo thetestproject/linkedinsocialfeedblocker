@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "LinkedIn Social Feed Blocker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Blocks the LinkedIn Social Feed at linkedin.com/feed/.",
   "icons": {
     "16": "images/icon-16.png",
@@ -11,7 +11,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://*.linkedin.com/feed/"],
+      "matches": ["https://*.linkedin.com/feed/*"],
 	  "css": ["css/hide.css"]
     }
   ],
