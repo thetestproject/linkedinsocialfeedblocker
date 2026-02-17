@@ -1,5 +1,95 @@
+/* Hides feed */
+
 .feed-shared-update-v2 {
     display: none !important;
 	visibility: hidden !important;
 }
+
+.feed-shared-update-v2__control-menu-container {
+    display: none !important;
+	visibility: hidden !important;
+}
+
+
+.feed-shared-update-v2--minimal-padding 
+{
+    display: none !important;
+	visibility: hidden !important;
+}
+
+.feed-shared-update-v2--with-carousel-fix 
+{
+    display: none !important;
+	visibility: hidden !important;
+}
+
+.feed-shared-update-v2--e2e
+     {
+    display: none !important;
+	visibility: hidden !important;
+}
+       
+.scaffold-finite-scroll__load-button      
+      {
+    display: none !important;
+	visibility: hidden !important;
+}
+              
+       
+            
+
+  /* Hide main feed DIV*/
+div[data-testid="mainFeed"] > div {
+  display: none !important;
+  display: none !important;
+  visibility: hidden !important;
+}
+
+
+/* Hides "new posts" */
+.feed-new-update-pill {
+  display: none !important;
+  visibility: hidden;
+  }
+  
+
+  /* Hide Home Button*/
+[aria-label="Home"] {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+  /* Hide Home Button*/
+[aria-label="Home, 1 new notification"] {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+
+.hlqCFDLyHXLwyvzqLMNyNEwjuUIkmaWY global-nav__primary-link {
+	 display: none !important;
+  visibility: hidden !important;
+}
+
+
+/* Hides the linkedin logo */
+
+.global-nav__branding-logo {
+	 display: none !important;
+  visibility: hidden !important;
+}
+
+
+app-linkedin-bug-color-icon {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+  /* Hide Home Button*/
+[aria-label="LinkedIn"] {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+
 
